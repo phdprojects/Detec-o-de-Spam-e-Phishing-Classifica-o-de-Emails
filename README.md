@@ -7,6 +7,8 @@
 
 Pipeline de **NLP end-to-end** que distingue emails de spam/phishing de emails legítimos, treinado sobre **100.000 emails reais de 2024**. Construído de raiz no Databricks, célula a célula, e pronto a correr em qualquer ambiente Python (Jupyter, Databricks, Kaggle).
 
+▶ **Versão interativa no Kaggle:** [Deteção de Spam e Phishing em Emails — NLP do Zero](https://www.kaggle.com/code/gonaldomichael/dete-o-de-spam-e-phishing-em-emails-nlp-do-zero)
+
 ## Dataset
 
 Kaggle [`isuranga/spammalicious-detection`](https://www.kaggle.com/datasets/isuranga/spammalicious-detection) ("Email Classification Data"):
@@ -61,6 +63,7 @@ Metas do projeto (F1 ≥ 0,90 | Acurácia ≥ 0,90 | Recall ≥ 0,85): todas cum
 1. Instalar as dependências: `pip install -r requirements.txt`
 2. Executar o notebook de topo a fundo — o dataset é descarregado automaticamente (sem credenciais)
 3. Tempo de execução: ~5 minutos em máquina standard (CPU)
+4. **No Kaggle:** anexar o dataset ao notebook (**Add Input** → *Email Classification Data*, de isuranga) e ativar a **Internet** nas definições — é o que faz a [versão publicada](https://www.kaggle.com/code/gonaldomichael/dete-o-de-spam-e-phishing-em-emails-nlp-do-zero)
 
 ## Uma nota de honestidade
 
